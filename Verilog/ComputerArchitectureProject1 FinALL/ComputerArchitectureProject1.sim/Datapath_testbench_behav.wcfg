@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="168.801 ns"></ZoomEndTime>
+      <Cursor1Time time="42.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="53" />
+   <wvobject fp_name="/Datapath_testbench/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider933">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider932">
+      <obj_property name="label">Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider929">
+      <obj_property name="label">IF/ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group928" type="group">
+      <obj_property name="label">IF/ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="divider" fp_name="divider267">
+         <obj_property name="label">IF/ID</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/IF_ID_PC" type="array">
+         <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/IF_ID_Inst" type="array">
+         <obj_property name="ElementShortName">IF_ID_Inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IF_ID_Inst[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/IF_ID_PCAdder4" type="array">
+         <obj_property name="ElementShortName">IF_ID_PCAdder4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IF_ID_PCAdder4[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider927">
+      <obj_property name="label">ID/EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group926" type="group">
+      <obj_property name="label">ID/EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider268">
+         <obj_property name="label">ID/EX</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Inst" type="array">
+         <obj_property name="ElementShortName">ID_EX_Inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Inst[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_PCAdder4" type="array">
+         <obj_property name="ElementShortName">ID_EX_PCAdder4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_PCAdder4[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_PC" type="array">
+         <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_RegR1" type="array">
+         <obj_property name="ElementShortName">ID_EX_RegR1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_RegR1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_RegR2" type="array">
+         <obj_property name="ElementShortName">ID_EX_RegR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_RegR2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Imm" type="array">
+         <obj_property name="ElementShortName">ID_EX_Imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Imm[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Ctrl" type="array">
+         <obj_property name="ElementShortName">ID_EX_Ctrl[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Ctrl[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Func" type="array">
+         <obj_property name="ElementShortName">ID_EX_Func[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Func[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Rs1" type="array">
+         <obj_property name="ElementShortName">ID_EX_Rs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Rs1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Rs2" type="array">
+         <obj_property name="ElementShortName">ID_EX_Rs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Rs2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_Rd" type="array">
+         <obj_property name="ElementShortName">ID_EX_Rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Rd[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1026">
+      <obj_property name="label">register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/IF_ID_Inst" type="array">
+      <obj_property name="ElementShortName">IF_ID_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Inst[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regread1" type="array">
+      <obj_property name="ElementShortName">regread1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regread1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regread2" type="array">
+      <obj_property name="ElementShortName">regread2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regread2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regwrite" type="array">
+      <obj_property name="ElementShortName">regwrite[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regwrite[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/outreg2" type="array">
+      <obj_property name="ElementShortName">outreg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outreg2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/outreg1" type="array">
+      <obj_property name="ElementShortName">outreg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outreg1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Registers/regfile[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/Registers/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1009">
+      <obj_property name="label">Datamemory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/MemRead" type="array">
+      <obj_property name="ElementShortName">MemRead[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MemRead[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/MemWrite" type="array">
+      <obj_property name="ElementShortName">MemWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/addr" type="array">
+      <obj_property name="ElementShortName">addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1025" type="group">
+      <obj_property name="label">CHOOSE YOUR INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ForwardB" type="array">
+         <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_RegR2" type="array">
+         <obj_property name="ElementShortName">ID_EX_RegR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_RegR2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux2Out" type="array">
+         <obj_property name="ElementShortName">Mux2Out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Mux2Out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_ALU_out" type="array">
+         <obj_property name="ElementShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_RegR2" type="array">
+      <obj_property name="ElementShortName">EX_MEM_RegR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RegR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:400][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:400][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[12:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_PC" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider937">
+      <obj_property name="label">MUX BEFORE PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group936" type="group">
+      <obj_property name="label">MUX BEFORE PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux3/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux3/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux3/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux3/Y" type="array">
+         <obj_property name="ElementShortName">Y[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Y[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Mux3/N" type="array">
+         <obj_property name="ElementShortName">N[31:0]</obj_property>
+         <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/BranchOut" type="logic">
+         <obj_property name="ElementShortName">BranchOut</obj_property>
+         <obj_property name="ObjectShortName">BranchOut</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/branching/BranchOut" type="logic">
+      <obj_property name="ElementShortName">BranchOut</obj_property>
+      <obj_property name="ObjectShortName">BranchOut</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider570">
+      <obj_property name="label">EX/MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group569" type="group">
+      <obj_property name="label">EX/MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_BranchAddOut" type="array">
+         <obj_property name="ElementShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_ALU_out" type="array">
+         <obj_property name="ElementShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_RegR1" type="array">
+         <obj_property name="ElementShortName">EX_MEM_RegR1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_RegR1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_RegR2" type="array">
+         <obj_property name="ElementShortName">EX_MEM_RegR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_RegR2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_Imm" type="array">
+         <obj_property name="ElementShortName">EX_MEM_Imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_Imm[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MEM_WB_Imm" type="array">
+         <obj_property name="ElementShortName">MEM_WB_Imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_WB_Imm[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/Lui_Auipc_Mux" type="array">
+         <obj_property name="ElementShortName">Lui_Auipc_Mux[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Lui_Auipc_Mux[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MEM_WB_BranchAddOut" type="array">
+         <obj_property name="ElementShortName">MEM_WB_BranchAddOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_WB_BranchAddOut[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/DataMemory/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:400][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:400][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider7672">
+      <obj_property name="label">SINGLE MEM MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_ALU_out" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALU_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/datain" type="array">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/ALUout" type="array">
+      <obj_property name="ElementShortName">ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/MUXForwardA" type="array">
+      <obj_property name="ElementShortName">MUXForwardA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MUXForwardA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_testbench/datapath1/ID_EX_RegR2" type="array">
+      <obj_property name="ElementShortName">ID_EX_RegR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegR2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group7927" type="group">
+      <obj_property name="label">forwardb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/C" type="array">
+         <obj_property name="ElementShortName">C[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/D" type="array">
+         <obj_property name="ElementShortName">D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/Y" type="array">
+         <obj_property name="ElementShortName">Y[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Y[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/MUXFwdB/N" type="array">
+         <obj_property name="ElementShortName">N[31:0]</obj_property>
+         <obj_property name="ObjectShortName">N[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/PC_out" type="array">
+         <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_testbench/datapath1/EX_MEM_PCAdder4" type="array">
+         <obj_property name="ElementShortName">EX_MEM_PCAdder4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_PCAdder4[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

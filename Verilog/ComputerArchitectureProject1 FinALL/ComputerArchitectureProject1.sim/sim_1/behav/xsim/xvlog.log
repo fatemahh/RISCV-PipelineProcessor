@@ -1,0 +1,46 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/Branch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/Forwarding_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/NBitReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/Nbit32Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NBit32Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/Nbit4MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Nbit4MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/NbitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/NbitMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/NbitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/NbitShiftLeft.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NbitShiftLeft
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+WARNING: [VRFC 10-2938] 'EX_MEM_Rd' is already implicitly declared on line 72 [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:113]
+WARNING: [VRFC 10-2938] 'MEM_WB_Rd' is already implicitly declared on line 50 [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:142]
+WARNING: [VRFC 10-2938] 'writereg' is already implicitly declared on line 51 [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:164]
+WARNING: [VRFC 10-2938] 'PCnew' is already implicitly declared on line 14 [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:181]
+WARNING: [VRFC 10-2938] 'EX_MEM_Flush' is already implicitly declared on line 121 [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:188]
+WARNING: [VRFC 10-3380] identifier 'IF_ID_Inst' is used before its declaration [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sim_1/new/datapath_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath_testbench
+WARNING: [VRFC 10-3248] data object 'clock' is already declared [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sim_1/new/datapath_testbench.v:10]
+WARNING: [VRFC 10-9364] second declaration of 'clock' is ignored [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sim_1/new/datapath_testbench.v:10]

@@ -1,0 +1,49 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Datapath_testbench_behav xil_defaultlib.Datapath_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'sum' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:18]
+WARNING: [VRFC 10-3091] actual bit length 96 differs from formal bit length 100 for port 'D' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:28]
+WARNING: [VRFC 10-3091] actual bit length 223 differs from formal bit length 230 for port 'D' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:60]
+WARNING: [VRFC 10-3091] actual bit length 223 differs from formal bit length 230 for port 'Q' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:62]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'sum' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:106]
+WARNING: [VRFC 10-3091] actual bit length 244 differs from formal bit length 250 for port 'D' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:121]
+WARNING: [VRFC 10-3091] actual bit length 244 differs from formal bit length 250 for port 'Q' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:123]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 13 for port 'addr' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:134]
+WARNING: [VRFC 10-3091] actual bit length 234 differs from formal bit length 240 for port 'D' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:144]
+WARNING: [VRFC 10-3091] actual bit length 234 differs from formal bit length 240 for port 'Q' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:145]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'sum' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:182]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 12 for port 'A' [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:189]
+WARNING: [VRFC 10-3705] select index 10 into 'EX_MEM_Ctrl' is out of bounds [C:/Users/laylamohsen/Documents/ComputerArchitectureProject1 no bonus - Copy/ComputerArchitectureProject1.srcs/sources_1/new/RISC-V.v:73]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.NbitReg_default
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.NbitRCA(N=32)
+Compiling module xil_defaultlib.NbitReg(N=100)
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.NBit32Reg
+Compiling module xil_defaultlib.NbitReg(N=230)
+Compiling module xil_defaultlib.Forwarding_Unit
+Compiling module xil_defaultlib.Nbit4MUX
+Compiling module xil_defaultlib.NbitMUX(N=32)
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.Shifter
+Compiling module xil_defaultlib.NbitALU
+Compiling module xil_defaultlib.NbitReg(N=250)
+Compiling module xil_defaultlib.Branch
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.NbitReg(N=240)
+Compiling module xil_defaultlib.NbitMUX(N=12)
+Compiling module xil_defaultlib.NbitShiftLeft(N=32)
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.Datapath_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Datapath_testbench_behav
